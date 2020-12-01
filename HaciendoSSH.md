@@ -12,13 +12,17 @@ chmod 600 ~/.ssh/millavefavorita
 
 ## Como servidor para aceptar conexiones entrantes
 Actualiza los paquetes
+
 `
 sudo apt update
 `
+
 Instala el servidor openssh
+
 `sudo apt install -y openssh-server`
 
 Comprueba que el servidor OpenSSH está funcionando
+
 `sudo systemctl status ssh`
 
 
