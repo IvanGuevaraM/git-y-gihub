@@ -20,6 +20,7 @@ git remote -v
 git remote remove upstream
 git remote remove origin
 git pull git@github.com:Interconectando/local_mex.git dev-version-14 --rebase
+git pull git@github.com:Interconectando/tc_interconectando.git dev-version-14 --rebase
 ```
 
 ## Crea llave en tu servidor
