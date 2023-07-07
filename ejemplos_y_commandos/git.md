@@ -16,6 +16,9 @@ git push -u origin dev-version-14 --force
 
 ### Un rebase de una instalacion ligada a otro remote
 ```
+git remote -v
+git remote remove upstream
+git remote remove origin
 git pull git@github.com:Interconectando/local_mex.git dev-version-14 --rebase
 ```
 
