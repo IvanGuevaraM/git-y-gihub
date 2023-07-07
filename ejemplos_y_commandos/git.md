@@ -14,6 +14,11 @@ git branch -M dev-version-14
 git push -u origin dev-version-14 --force 
 ```
 
+### Un rebase de una instalacion ligada a otro remote
+```
+git pull git@github.com:Interconectando/local_mex.git dev-version-14 --rebase
+```
+
 ## Crea llave en tu servidor
 ```
 ssh-keygen -t rsa -b 2048 -C "mi_correo@gmail.com" -f ~/.ssh/mi_llave 
